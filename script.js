@@ -1,3 +1,20 @@
+// Theme functionality
+function initializeTheme() {
+    const themeToggle = document.getElementById('theme-toggle');
+    const currentTheme = localStorage.getItem('theme') || 'light';
+
+    // Set initial theme
+    document.documentElement.setAttribute('data-theme', currentTheme);
+    themeToggle.checked = currentTheme === 'dark';
+
+    // Theme toggle event
+    themeToggle.addEventListener('change', function () {
+        const newTheme = this.checked ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+    });
+}
+
 async function loadCountries() {
     const response = await fetch('data/negara.json');
     const countries = await response.json();
@@ -6,11 +23,14 @@ async function loadCountries() {
     const modal = document.getElementById('modal');
     const closeModal = document.querySelector('.close');
 
+    // Initialize theme
+    initializeTheme();
+
     // Add loading animation
     container.innerHTML = `
         <div style="grid-column: 1 / -1; text-align: center; padding: 40px;">
             <div style="display: inline-block; width: 50px; height: 50px; border: 3px solid #f3f3f3; border-top: 3px solid #667eea; border-radius: 50%; animation: spin 1s linear infinite;"></div>
-            <p style="margin-top: 15px; color: #666;">Memuat data negara...</p>
+            <p style="margin-top: 15px; color: var(--text-secondary);">Memuat data negara...</p>
         </div>
     `;
 
@@ -47,7 +67,7 @@ async function loadCountries() {
             container.innerHTML = `
                 <div style="grid-column: 1 / -1; text-align: center; padding: 40px;">
                     <div style="font-size: 3rem; color: #cbd5e0; margin-bottom: 15px;">🔍</div>
-                    <h3 style="color: #718096; margin-bottom: 10px;">Tidak ada hasil</h3>
+                    <h3 style="color: var(--text-secondary); margin-bottom: 10px;">Tidak ada hasil</h3>
                     <p style="color: #a0aec0;">Coba kata kunci pencarian lain</p>
                 </div>
             `;
