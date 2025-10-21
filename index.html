@@ -10,9 +10,17 @@
 
 <body>
 
+    <!-- Theme Toggle Switch -->
+    <div class="theme-toggle">
+        <label class="theme-switch">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider"></span>
+        </label>
+    </div>
+
     <header>
         <div class="header-content">
-            <h1>🌍 Daftar Negara Dunia</h1>
+            <h1> Daftar Negara Dunia</h1>
             <p class="subtitle">Jelajahi keindahan negara-negara di dunia</p>
             <div class="search-container">
                 <input type="text" id="search" placeholder="Cari negara... (contoh: Indonesia, Japan)">
@@ -28,10 +36,10 @@
             <span class="close">&times;</span>
             <img id="modal-flag" src="" alt="Bendera Negara">
             <h2 id="modal-name"></h2>
-            <p><strong>Benua:</strong> <span id="modal-continent"></span></p>
-            <p><strong>Mata Uang:</strong> <span id="modal-currency"></span></p>
-            <p><strong>Bahasa:</strong> <span id="modal-language"></span></p>
-            <p><strong>Luas Wilayah:</strong> <span id="modal-area"></span></p>
+            <p id="modal-continent"></p>
+            <p id="modal-currency"></p>
+            <p id="modal-language"></p>
+            <p id="modal-area"></p>
         </div>
     </div>
 

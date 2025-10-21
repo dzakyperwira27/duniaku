@@ -27,15 +27,6 @@
         "bendera": "https://flagcdn.com/w320/dz.png"
     },
     {
-        "kode": "us",
-        "nama": "Amerika Serikat",
-        "benua": "Amerika Utara",
-        "mata_uang": "Dollar (USD)",
-        "bahasa": "Bahasa Inggris",
-        "luas": "9.833.517 km²",
-        "bendera": "https://flagcdn.com/w320/us.png"
-    },
-    {
         "kode": "ad",
         "nama": "Andorra",
         "benua": "Eropa",
@@ -63,15 +54,6 @@
         "bendera": "https://flagcdn.com/w320/ag.png"
     },
     {
-        "kode": "sa",
-        "nama": "Arab Saudi",
-        "benua": "Asia",
-        "mata_uang": "Riyal Saudi (SAR)",
-        "bahasa": "Bahasa Arab",
-        "luas": "2.149.690 km²",
-        "bendera": "https://flagcdn.com/w320/sa.png"
-    },
-    {
         "kode": "ar",
         "nama": "Argentina",
         "benua": "Amerika Selatan",
@@ -88,15 +70,6 @@
         "bahasa": "Bahasa Armenia",
         "luas": "29.743 km²",
         "bendera": "https://flagcdn.com/w320/am.png"
-    },
-    {
-        "kode": "aw",
-        "nama": "Aruba",
-        "benua": "Amerika Utara",
-        "mata_uang": "Florin Aruba (AWG)",
-        "bahasa": "Belanda, Papiamento",
-        "luas": "180 km²",
-        "bendera": "https://flagcdn.com/w320/aw.png"
     },
     {
         "kode": "au",
@@ -279,6 +252,15 @@
         "bendera": "https://flagcdn.com/w320/bi.png"
     },
     {
+        "kode": "cv",
+        "nama": "Tanjung Verde",
+        "benua": "Afrika",
+        "mata_uang": "Escudo Tanjung Verde (CVE)",
+        "bahasa": "Bahasa Portugis",
+        "luas": "4.033 km²",
+        "bendera": "https://flagcdn.com/w320/cv.png"
+    },
+    {
         "kode": "kh",
         "nama": "Kamboja",
         "benua": "Asia",
@@ -304,15 +286,6 @@
         "bahasa": "Bahasa Inggris, Prancis",
         "luas": "9.984.670 km²",
         "bendera": "https://flagcdn.com/w320/ca.png"
-    },
-    {
-        "kode": "cv",
-        "nama": "Tanjung Verde",
-        "benua": "Afrika",
-        "mata_uang": "Escudo Tanjung Verde (CVE)",
-        "bahasa": "Bahasa Portugis",
-        "luas": "4.033 km²",
-        "bendera": "https://flagcdn.com/w320/cv.png"
     },
     {
         "kode": "cf",
@@ -442,9 +415,9 @@
     },
     {
         "kode": "dj",
-        "nama": "Jibuti",
+        "nama": "Djibouti",
         "benua": "Afrika",
-        "mata_uang": "Franc Jibuti (DJF)",
+        "mata_uang": "Franc Djibouti (DJF)",
         "bahasa": "Bahasa Prancis, Arab",
         "luas": "23.200 km²",
         "bendera": "https://flagcdn.com/w320/dj.png"
@@ -556,15 +529,6 @@
         "bahasa": "Prancis",
         "luas": "640.679 km²",
         "bendera": "https://flagcdn.com/w320/fr.png"
-    },
-    {
-        "kode": "ph",
-        "nama": "Filipina",
-        "benua": "Asia",
-        "mata_uang": "Peso Filipina (PHP)",
-        "bahasa": "Filipino, Inggris",
-        "luas": "300.000 km²",
-        "bendera": "https://flagcdn.com/w320/ph.png"
     },
     {
         "kode": "ga",
@@ -729,393 +693,6 @@
         "bendera": "https://flagcdn.com/w320/ke.png"
     },
     {
-        "kode": "kw",
-        "nama": "Kuwait",
-        "benua": "Asia",
-        "mata_uang": "Dinar Kuwait (KWD)",
-        "bahasa": "Arab",
-        "luas": "17.818 km²",
-        "bendera": "https://flagcdn.com/w320/kw.png"
-    },
-    {
-        "kode": "la",
-        "nama": "Laos",
-        "benua": "Asia",
-        "mata_uang": "Kip Laos (LAK)",
-        "bahasa": "Lao",
-        "luas": "236.800 km²",
-        "bendera": "https://flagcdn.com/w320/la.png"
-    },
-    {
-        "kode": "lv",
-        "nama": "Latvia",
-        "benua": "Eropa",
-        "mata_uang": "Euro (EUR)",
-        "bahasa": "Latvia",
-        "luas": "64.589 km²",
-        "bendera": "https://flagcdn.com/w320/lv.png"
-    },
-    {
-        "kode": "lb",
-        "nama": "Lebanon",
-        "benua": "Asia",
-        "mata_uang": "Pound Lebanon (LBP)",
-        "bahasa": "Arab",
-        "luas": "10.452 km²",
-        "bendera": "https://flagcdn.com/w320/lb.png"
-    },
-    {
-        "kode": "ly",
-        "nama": "Libya",
-        "benua": "Afrika",
-        "mata_uang": "Dinar Libya (LYD)",
-        "bahasa": "Arab",
-        "luas": "1.759.540 km²",
-        "bendera": "https://flagcdn.com/w320/ly.png"
-    },
-    {
-        "kode": "lt",
-        "nama": "Lituania",
-        "benua": "Eropa",
-        "mata_uang": "Euro (EUR)",
-        "bahasa": "Lituania",
-        "luas": "65.300 km²",
-        "bendera": "https://flagcdn.com/w320/lt.png"
-    },
-    {
-        "kode": "mg",
-        "nama": "Madagaskar",
-        "benua": "Afrika",
-        "mata_uang": "Ariary Malagasi (MGA)",
-        "bahasa": "Malagasi, Prancis",
-        "luas": "587.041 km²",
-        "bendera": "https://flagcdn.com/w320/mg.png"
-    },
-    {
-        "kode": "my",
-        "nama": "Malaysia",
-        "benua": "Asia",
-        "mata_uang": "Ringgit Malaysia (MYR)",
-        "bahasa": "Melayu",
-        "luas": "330.803 km²",
-        "bendera": "https://flagcdn.com/w320/my.png"
-    },
-    {
-        "kode": "mv",
-        "nama": "Maladewa",
-        "benua": "Asia",
-        "mata_uang": "Rufiyaa Maladewa (MVR)",
-        "bahasa": "Divehi",
-        "luas": "300 km²",
-        "bendera": "https://flagcdn.com/w320/mv.png"
-    },
-    {
-        "kode": "mx",
-        "nama": "Meksiko",
-        "benua": "Amerika",
-        "mata_uang": "Peso Meksiko (MXN)",
-        "bahasa": "Spanyol",
-        "luas": "1.964.375 km²",
-        "bendera": "https://flagcdn.com/w320/mx.png"
-    },
-    {
-        "kode": "mn",
-        "nama": "Mongolia",
-        "benua": "Asia",
-        "mata_uang": "Tugrik Mongolia (MNT)",
-        "bahasa": "Mongolia",
-        "luas": "1.564.110 km²",
-        "bendera": "https://flagcdn.com/w320/mn.png"
-    },
-    {
-        "kode": "ma",
-        "nama": "Maroko",
-        "benua": "Afrika",
-        "mata_uang": "Dirham Maroko (MAD)",
-        "bahasa": "Arab, Berber",
-        "luas": "710.850 km²",
-        "bendera": "https://flagcdn.com/w320/ma.png"
-    },
-    {
-        "kode": "np",
-        "nama": "Nepal",
-        "benua": "Asia",
-        "mata_uang": "Rupee Nepal (NPR)",
-        "bahasa": "Nepali",
-        "luas": "147.181 km²",
-        "bendera": "https://flagcdn.com/w320/np.png"
-    },
-    {
-        "kode": "nl",
-        "nama": "Belanda",
-        "benua": "Eropa",
-        "mata_uang": "Euro (EUR)",
-        "bahasa": "Belanda",
-        "luas": "41.850 km²",
-        "bendera": "https://flagcdn.com/w320/nl.png"
-    },
-    {
-        "kode": "nz",
-        "nama": "Selandia Baru",
-        "benua": "Oseania",
-        "mata_uang": "Dolar Selandia Baru (NZD)",
-        "bahasa": "Inggris, Māori",
-        "luas": "268.838 km²",
-        "bendera": "https://flagcdn.com/w320/nz.png"
-    },
-    {
-        "kode": "ng",
-        "nama": "Nigeria",
-        "benua": "Afrika",
-        "mata_uang": "Naira Nigeria (NGN)",
-        "bahasa": "Inggris",
-        "luas": "923.768 km²",
-        "bendera": "https://flagcdn.com/w320/ng.png"
-    },
-    {
-        "kode": "no",
-        "nama": "Norwegia",
-        "benua": "Eropa",
-        "mata_uang": "Krone Norwegia (NOK)",
-        "bahasa": "Bokmål, Nynorsk",
-        "luas": "385.207 km²",
-        "bendera": "https://flagcdn.com/w320/no.png"
-    },
-    {
-        "kode": "om",
-        "nama": "Oman",
-        "benua": "Asia",
-        "mata_uang": "Rial Oman (OMR)",
-        "bahasa": "Arab",
-        "luas": "309.500 km²",
-        "bendera": "https://flagcdn.com/w320/om.png"
-    },
-    {
-        "kode": "pk",
-        "nama": "Pakistan",
-        "benua": "Asia",
-        "mata_uang": "Rupee Pakistan (PKR)",
-        "bahasa": "Urdu, Inggris",
-        "luas": "881.913 km²",
-        "bendera": "https://flagcdn.com/w320/pk.png"
-    },
-    {
-        "kode": "pa",
-        "nama": "Panama",
-        "benua": "Amerika",
-        "mata_uang": "Balboa Panama (PAB)",
-        "bahasa": "Spanyol",
-        "luas": "75.417 km²",
-        "bendera": "https://flagcdn.com/w320/pa.png"
-    },
-    {
-        "kode": "py",
-        "nama": "Paraguay",
-        "benua": "Amerika",
-        "mata_uang": "Guaraní Paraguay (PYG)",
-        "bahasa": "Spanyol, Guarani",
-        "luas": "406.752 km²",
-        "bendera": "https://flagcdn.com/w320/py.png"
-    },
-    {
-        "kode": "pe",
-        "nama": "Peru",
-        "benua": "Amerika",
-        "mata_uang": "Sol Peru (PEN)",
-        "bahasa": "Spanyol",
-        "luas": "1.285.216 km²",
-        "bendera": "https://flagcdn.com/w320/pe.png"
-    },
-    {
-        "kode": "pl",
-        "nama": "Polandia",
-        "benua": "Eropa",
-        "mata_uang": "Złoty Polandia (PLN)",
-        "bahasa": "Polandia",
-        "luas": "312.696 km²",
-        "bendera": "https://flagcdn.com/w320/pl.png"
-    },
-    {
-        "kode": "pt",
-        "nama": "Portugal",
-        "benua": "Eropa",
-        "mata_uang": "Euro (EUR)",
-        "bahasa": "Portugis",
-        "luas": "92.212 km²",
-        "bendera": "https://flagcdn.com/w320/pt.png"
-    },
-    {
-        "kode": "qa",
-        "nama": "Qatar",
-        "benua": "Asia",
-        "mata_uang": "Riyal Qatar (QAR)",
-        "bahasa": "Arab",
-        "luas": "11.586 km²",
-        "bendera": "https://flagcdn.com/w320/qa.png"
-    },
-    {
-        "kode": "ro",
-        "nama": "Rumania",
-        "benua": "Eropa",
-        "mata_uang": "Leu Rumania (RON)",
-        "bahasa": "Rumania",
-        "luas": "238.391 km²",
-        "bendera": "https://flagcdn.com/w320/ro.png"
-    },
-    {
-        "kode": "ru",
-        "nama": "Rusia",
-        "benua": "Eropa/Asia",
-        "mata_uang": "Rubel Rusia (RUB)",
-        "bahasa": "Rusia",
-        "luas": "17.098.242 km²",
-        "bendera": "https://flagcdn.com/w320/ru.png"
-    },
-    {
-        "kode": "sa",
-        "nama": "Arab Saudi",
-        "benua": "Asia",
-        "mata_uang": "Riyal Saudi (SAR)",
-        "bahasa": "Arab",
-        "luas": "2.149.690 km²",
-        "bendera": "https://flagcdn.com/w320/sa.png"
-    },
-    {
-        "kode": "rs",
-        "nama": "Serbia",
-        "benua": "Eropa",
-        "mata_uang": "Dinar Serbia (RSD)",
-        "bahasa": "Serbia",
-        "luas": "88.361 km²",
-        "bendera": "https://flagcdn.com/w320/rs.png"
-    },
-    {
-        "kode": "sg",
-        "nama": "Singapura",
-        "benua": "Asia",
-        "mata_uang": "Dolar Singapura (SGD)",
-        "bahasa": "Melayu, Inggris, Mandarin, Tamil",
-        "luas": "710 km²",
-        "bendera": "https://flagcdn.com/w320/sg.png"
-    },
-    {
-        "kode": "za",
-        "nama": "Afrika Selatan",
-        "benua": "Afrika",
-        "mata_uang": "Rand Afrika Selatan (ZAR)",
-        "bahasa": "11 Bahasa Resmi",
-        "luas": "1.221.037 km²",
-        "bendera": "https://flagcdn.com/w320/za.png"
-    },
-    {
-        "kode": "es",
-        "nama": "Spanyol",
-        "benua": "Eropa",
-        "mata_uang": "Euro (EUR)",
-        "bahasa": "Spanyol",
-        "luas": "505.992 km²",
-        "bendera": "https://flagcdn.com/w320/es.png"
-    },
-    {
-        "kode": "se",
-        "nama": "Swedia",
-        "benua": "Eropa",
-        "mata_uang": "Krona Swedia (SEK)",
-        "bahasa": "Swedia",
-        "luas": "450.295 km²",
-        "bendera": "https://flagcdn.com/w320/se.png"
-    },
-    {
-        "kode": "ch",
-        "nama": "Swiss",
-        "benua": "Eropa",
-        "mata_uang": "Franc Swiss (CHF)",
-        "bahasa": "Jerman, Prancis, Italia",
-        "luas": "41.285 km²",
-        "bendera": "https://flagcdn.com/w320/ch.png"
-    },
-    {
-        "kode": "th",
-        "nama": "Thailand",
-        "benua": "Asia",
-        "mata_uang": "Baht Thailand (THB)",
-        "bahasa": "Thai",
-        "luas": "513.120 km²",
-        "bendera": "https://flagcdn.com/w320/th.png"
-    },
-    {
-        "kode": "tr",
-        "nama": "Turki",
-        "benua": "Asia/Eropa",
-        "mata_uang": "Lira Turki (TRY)",
-        "bahasa": "Turki",
-        "luas": "783.562 km²",
-        "bendera": "https://flagcdn.com/w320/tr.png"
-    },
-    {
-        "kode": "ua",
-        "nama": "Ukraina",
-        "benua": "Eropa",
-        "mata_uang": "Hryvnia Ukraina (UAH)",
-        "bahasa": "Ukraina",
-        "luas": "603.628 km²",
-        "bendera": "https://flagcdn.com/w320/ua.png"
-    },
-    {
-        "kode": "ae",
-        "nama": "Uni Emirat Arab",
-        "benua": "Asia",
-        "mata_uang": "Dirham Uni Emirat Arab (AED)",
-        "bahasa": "Arab",
-        "luas": "83.600 km²",
-        "bendera": "https://flagcdn.com/w320/ae.png"
-    },
-    {
-        "kode": "us",
-        "nama": "Amerika Serikat",
-        "benua": "Amerika",
-        "mata_uang": "Dolar Amerika Serikat (USD)",
-        "bahasa": "Inggris",
-        "luas": "9.833.517 km²",
-        "bendera": "https://flagcdn.com/w320/us.png"
-    },
-    {
-        "kode": "vn",
-        "nama": "Vietnam",
-        "benua": "Asia",
-        "mata_uang": "Đồng Vietnam (VND)",
-        "bahasa": "Vietnam",
-        "luas": "331.212 km²",
-        "bendera": "https://flagcdn.com/w320/vn.png"
-    },
-    {
-        "kode": "ye",
-        "nama": "Yaman",
-        "benua": "Asia",
-        "mata_uang": "Rial Yaman (YER)",
-        "bahasa": "Arab",
-        "luas": "527.968 km²",
-        "bendera": "https://flagcdn.com/w320/ye.png"
-    },
-    {
-        "kode": "zm",
-        "nama": "Zambia",
-        "benua": "Afrika",
-        "mata_uang": "Kwacha Zambia (ZMW)",
-        "bahasa": "Inggris",
-        "luas": "752.618 km²",
-        "bendera": "https://flagcdn.com/w320/zm.png"
-    },
-    {
-        "kode": "zw",
-        "nama": "Zimbabwe",
-        "benua": "Afrika",
-        "mata_uang": "Dolar Zimbabwe (ZWL)",
-        "bahasa": "16 Bahasa Resmi",
-        "luas": "390.757 km²",
-        "bendera": "https://flagcdn.com/w320/zw.png"
-    },
-    {
         "kode": "ki",
         "nama": "Kiribati",
         "benua": "Oseania",
@@ -1165,7 +742,7 @@
         "nama": "Lebanon",
         "benua": "Asia",
         "mata_uang": "Pound Lebanon (LBP)",
-        "bahasa": "Bahasa Arab, Prancis",
+        "bahasa": "Arab",
         "luas": "10.452 km²",
         "bendera": "https://flagcdn.com/w320/lb.png"
     },
@@ -1228,7 +805,7 @@
         "nama": "Madagaskar",
         "benua": "Afrika",
         "mata_uang": "Ariary Malagasi (MGA)",
-        "bahasa": "Bahasa Malagasi, Prancis",
+        "bahasa": "Malagasi, Prancis",
         "luas": "587.041 km²",
         "bendera": "https://flagcdn.com/w320/mg.png"
     },
@@ -1246,7 +823,7 @@
         "nama": "Malaysia",
         "benua": "Asia",
         "mata_uang": "Ringgit Malaysia (MYR)",
-        "bahasa": "Bahasa Melayu",
+        "bahasa": "Melayu",
         "luas": "330.803 km²",
         "bendera": "https://flagcdn.com/w320/my.png"
     },
@@ -1255,8 +832,8 @@
         "nama": "Maladewa",
         "benua": "Asia",
         "mata_uang": "Rufiyaa Maladewa (MVR)",
-        "bahasa": "Bahasa Dhivehi",
-        "luas": "298 km²",
+        "bahasa": "Divehi",
+        "luas": "300 km²",
         "bendera": "https://flagcdn.com/w320/mv.png"
     },
     {
@@ -1276,6 +853,15 @@
         "bahasa": "Bahasa Malta, Inggris",
         "luas": "316 km²",
         "bendera": "https://flagcdn.com/w320/mt.png"
+    },
+    {
+        "kode": "ma",
+        "nama": "Maroko",
+        "benua": "Afrika",
+        "mata_uang": "Dirham Maroko (MAD)",
+        "bahasa": "Arab, Berber",
+        "luas": "710.850 km²",
+        "bendera": "https://flagcdn.com/w320/ma.png"
     },
     {
         "kode": "mh",
@@ -1345,8 +931,8 @@
         "nama": "Mongolia",
         "benua": "Asia",
         "mata_uang": "Tugrik Mongolia (MNT)",
-        "bahasa": "Bahasa Mongolia",
-        "luas": "1.564.116 km²",
+        "bahasa": "Mongolia",
+        "luas": "1.564.110 km²",
         "bendera": "https://flagcdn.com/w320/mn.png"
     },
     {
@@ -1357,15 +943,6 @@
         "bahasa": "Bahasa Montenegro",
         "luas": "13.812 km²",
         "bendera": "https://flagcdn.com/w320/me.png"
-    },
-    {
-        "kode": "ma",
-        "nama": "Maroko",
-        "benua": "Afrika",
-        "mata_uang": "Dirham Maroko (MAD)",
-        "bahasa": "Bahasa Arab, Amazigh",
-        "luas": "446.550 km²",
-        "bendera": "https://flagcdn.com/w320/ma.png"
     },
     {
         "kode": "mz",
@@ -1413,33 +990,6 @@
         "bendera": "https://flagcdn.com/w320/np.png"
     },
     {
-        "kode": "nl",
-        "nama": "Belanda",
-        "benua": "Eropa",
-        "mata_uang": "Euro (EUR)",
-        "bahasa": "Bahasa Belanda",
-        "luas": "41.543 km²",
-        "bendera": "https://flagcdn.com/w320/nl.png"
-    },
-    {
-        "kode": "nz",
-        "nama": "Selandia Baru",
-        "benua": "Oseania",
-        "mata_uang": "Dollar Selandia Baru (NZD)",
-        "bahasa": "Bahasa Inggris, Māori",
-        "luas": "268.021 km²",
-        "bendera": "https://flagcdn.com/w320/nz.png"
-    },
-    {
-        "kode": "ni",
-        "nama": "Nikaragua",
-        "benua": "Amerika Tengah",
-        "mata_uang": "Córdoba Nikaragua (NIO)",
-        "bahasa": "Bahasa Spanyol",
-        "luas": "130.373 km²",
-        "bendera": "https://flagcdn.com/w320/ni.png"
-    },
-    {
         "kode": "ne",
         "nama": "Niger",
         "benua": "Afrika",
@@ -1458,29 +1008,20 @@
         "bendera": "https://flagcdn.com/w320/ng.png"
     },
     {
-        "kode": "kp",
-        "nama": "Korea Utara",
-        "benua": "Asia",
-        "mata_uang": "Won Korea Utara (KPW)",
-        "bahasa": "Bahasa Korea",
-        "luas": "120.538 km²",
-        "bendera": "https://flagcdn.com/w320/kp.png"
-    },
-    {
-        "kode": "mk",
-        "nama": "Makedonia Utara",
-        "benua": "Eropa",
-        "mata_uang": "Denar Makedonia (MKD)",
-        "bahasa": "Bahasa Makedonia",
-        "luas": "25.713 km²",
-        "bendera": "https://flagcdn.com/w320/mk.png"
+        "kode": "ni",
+        "nama": "Nikaragua",
+        "benua": "Amerika Tengah",
+        "mata_uang": "Córdoba Nikaragua (NIO)",
+        "bahasa": "Bahasa Spanyol",
+        "luas": "130.373 km²",
+        "bendera": "https://flagcdn.com/w320/ni.png"
     },
     {
         "kode": "no",
         "nama": "Norwegia",
         "benua": "Eropa",
         "mata_uang": "Krone Norwegia (NOK)",
-        "bahasa": "Bahasa Norwegia",
+        "bahasa": "Bokmål, Nynorsk",
         "luas": "385.207 km²",
         "bendera": "https://flagcdn.com/w320/no.png"
     },
@@ -1514,9 +1055,9 @@
     {
         "kode": "pa",
         "nama": "Panama",
-        "benua": "Amerika Tengah",
-        "mata_uang": "Balboa Panama (PAB), Dollar AS (USD)",
-        "bahasa": "Bahasa Spanyol",
+        "benua": "Amerika",
+        "mata_uang": "Balboa Panama (PAB)",
+        "bahasa": "Spanyol",
         "luas": "75.417 km²",
         "bendera": "https://flagcdn.com/w320/pa.png"
     },
@@ -1532,29 +1073,20 @@
     {
         "kode": "py",
         "nama": "Paraguay",
-        "benua": "Amerika Selatan",
-        "mata_uang": "Guarani Paraguay (PYG)",
-        "bahasa": "Bahasa Spanyol, Guarani",
+        "benua": "Amerika",
+        "mata_uang": "Guaraní Paraguay (PYG)",
+        "bahasa": "Spanyol, Guarani",
         "luas": "406.752 km²",
         "bendera": "https://flagcdn.com/w320/py.png"
     },
     {
         "kode": "pe",
         "nama": "Peru",
-        "benua": "Amerika Selatan",
+        "benua": "Amerika",
         "mata_uang": "Sol Peru (PEN)",
-        "bahasa": "Bahasa Spanyol, Quechua, Aymara",
+        "bahasa": "Spanyol",
         "luas": "1.285.216 km²",
         "bendera": "https://flagcdn.com/w320/pe.png"
-    },
-    {
-        "kode": "ph",
-        "nama": "Filipina",
-        "benua": "Asia",
-        "mata_uang": "Peso Filipina (PHP)",
-        "bahasa": "Bahasa Filipina, Inggris",
-        "luas": "300.000 km²",
-        "bendera": "https://flagcdn.com/w320/ph.png"
     },
     {
         "kode": "pl",
@@ -1573,6 +1105,15 @@
         "bahasa": "Bahasa Portugis",
         "luas": "92.090 km²",
         "bendera": "https://flagcdn.com/w320/pt.png"
+    },
+    {
+        "kode": "fr",
+        "nama": "Prancis",
+        "benua": "Eropa",
+        "mata_uang": "Euro (EUR)",
+        "bahasa": "Prancis",
+        "luas": "640.679 km²",
+        "bendera": "https://flagcdn.com/w320/fr.png"
     },
     {
         "kode": "qa",
@@ -1665,13 +1206,13 @@
         "bendera": "https://flagcdn.com/w320/st.png"
     },
     {
-        "kode": "sa",
-        "nama": "Arab Saudi",
-        "benua": "Asia",
-        "mata_uang": "Riyal Saudi (SAR)",
-        "bahasa": "Bahasa Arab",
-        "luas": "2.149.690 km²",
-        "bendera": "https://flagcdn.com/w320/sa.png"
+        "kode": "nz",
+        "nama": "Selandia Baru",
+        "benua": "Oseania",
+        "mata_uang": "Dollar Selandia Baru (NZD)",
+        "bahasa": "Bahasa Inggris, Māori",
+        "luas": "268.021 km²",
+        "bendera": "https://flagcdn.com/w320/nz.png"
     },
     {
         "kode": "sn",
@@ -1713,10 +1254,19 @@
         "kode": "sg",
         "nama": "Singapura",
         "benua": "Asia",
-        "mata_uang": "Dollar Singapura (SGD)",
-        "bahasa": "Bahasa Melayu, Inggris, Mandarin, Tamil",
-        "luas": "728 km²",
+        "mata_uang": "Dolar Singapura (SGD)",
+        "bahasa": "Melayu, Inggris, Mandarin, Tamil",
+        "luas": "710 km²",
         "bendera": "https://flagcdn.com/w320/sg.png"
+    },
+    {
+        "kode": "cy",
+        "nama": "Siprus",
+        "benua": "Eropa",
+        "mata_uang": "Euro (EUR)",
+        "bahasa": "Bahasa Yunani, Turki",
+        "luas": "9.251 km²",
+        "bendera": "https://flagcdn.com/w320/cy.png"
     },
     {
         "kode": "sk",
@@ -1755,39 +1305,12 @@
         "bendera": "https://flagcdn.com/w320/so.png"
     },
     {
-        "kode": "za",
-        "nama": "Afrika Selatan",
-        "benua": "Afrika",
-        "mata_uang": "Rand Afrika Selatan (ZAR)",
-        "bahasa": "11 Bahasa Resmi (termasuk Inggris, Zulu, Xhosa)",
-        "luas": "1.221.037 km²",
-        "bendera": "https://flagcdn.com/w320/za.png"
-    },
-    {
-        "kode": "kr",
-        "nama": "Korea Selatan",
-        "benua": "Asia",
-        "mata_uang": "Won Korea Selatan (KRW)",
-        "bahasa": "Bahasa Korea",
-        "luas": "100.210 km²",
-        "bendera": "https://flagcdn.com/w320/kr.png"
-    },
-    {
-        "kode": "ss",
-        "nama": "Sudan Selatan",
-        "benua": "Afrika",
-        "mata_uang": "Pound Sudan Selatan (SSP)",
-        "bahasa": "Bahasa Inggris",
-        "luas": "619.745 km²",
-        "bendera": "https://flagcdn.com/w320/ss.png"
-    },
-    {
         "kode": "es",
         "nama": "Spanyol",
         "benua": "Eropa",
         "mata_uang": "Euro (EUR)",
-        "bahasa": "Bahasa Spanyol",
-        "luas": "505.990 km²",
+        "bahasa": "Spanyol",
+        "luas": "505.992 km²",
         "bendera": "https://flagcdn.com/w320/es.png"
     },
     {
@@ -1809,6 +1332,15 @@
         "bendera": "https://flagcdn.com/w320/sd.png"
     },
     {
+        "kode": "ss",
+        "nama": "Sudan Selatan",
+        "benua": "Afrika",
+        "mata_uang": "Pound Sudan Selatan (SSP)",
+        "bahasa": "Bahasa Inggris",
+        "luas": "619.745 km²",
+        "bendera": "https://flagcdn.com/w320/ss.png"
+    },
+    {
         "kode": "sr",
         "nama": "Suriname",
         "benua": "Amerika Selatan",
@@ -1816,15 +1348,6 @@
         "bahasa": "Bahasa Belanda",
         "luas": "163.821 km²",
         "bendera": "https://flagcdn.com/w320/sr.png"
-    },
-    {
-        "kode": "sz",
-        "nama": "Eswatini",
-        "benua": "Afrika",
-        "mata_uang": "Lilangeni (SZL)",
-        "bahasa": "Bahasa Swazi, Inggris",
-        "luas": "17.364 km²",
-        "bendera": "https://flagcdn.com/w320/sz.png"
     },
     {
         "kode": "se",
@@ -1937,9 +1460,9 @@
     {
         "kode": "tr",
         "nama": "Turki",
-        "benua": "Asia & Eropa",
+        "benua": "Asia/Eropa",
         "mata_uang": "Lira Turki (TRY)",
-        "bahasa": "Bahasa Turki",
+        "bahasa": "Turki",
         "luas": "783.562 km²",
         "bendera": "https://flagcdn.com/w320/tr.png"
     },
@@ -1989,24 +1512,6 @@
         "bendera": "https://flagcdn.com/w320/ae.png"
     },
     {
-        "kode": "gb",
-        "nama": "Britania Raya",
-        "benua": "Eropa",
-        "mata_uang": "Pound Sterling (GBP)",
-        "bahasa": "Bahasa Inggris",
-        "luas": "243.610 km²",
-        "bendera": "https://flagcdn.com/w320/gb.png"
-    },
-    {
-        "kode": "us",
-        "nama": "Amerika Serikat",
-        "benua": "Amerika Utara",
-        "mata_uang": "Dollar AS (USD)",
-        "bahasa": "Bahasa Inggris",
-        "luas": "9.833.520 km²",
-        "bendera": "https://flagcdn.com/w320/us.png"
-    },
-    {
         "kode": "uy",
         "nama": "Uruguay",
         "benua": "Amerika Selatan",
@@ -2025,12 +1530,57 @@
         "bendera": "https://flagcdn.com/w320/uz.png"
     },
     {
+        "kode": "vu",
+        "nama": "Vanuatu",
+        "benua": "Oseania",
+        "mata_uang": "Vatu Vanuatu (VUV)",
+        "bahasa": "Bahasa Bislama, Inggris, Prancis",
+        "luas": "12.189 km²",
+        "bendera": "https://flagcdn.com/w320/vu.png"
+    },
+    {
+        "kode": "ve",
+        "nama": "Venezuela",
+        "benua": "Amerika Selatan",
+        "mata_uang": "Bolívar Venezuela (VES)",
+        "bahasa": "Bahasa Spanyol",
+        "luas": "916.445 km²",
+        "bendera": "https://flagcdn.com/w320/ve.png"
+    },
+    {
+        "kode": "vn",
+        "nama": "Vietnam",
+        "benua": "Asia",
+        "mata_uang": "Đồng Vietnam (VND)",
+        "bahasa": "Vietnam",
+        "luas": "331.212 km²",
+        "bendera": "https://flagcdn.com/w320/vn.png"
+    },
+    {
+        "kode": "ye",
+        "nama": "Yaman",
+        "benua": "Asia",
+        "mata_uang": "Rial Yaman (YER)",
+        "bahasa": "Arab",
+        "luas": "527.968 km²",
+        "bendera": "https://flagcdn.com/w320/ye.png"
+    },
+    {
+        "kode": "gr",
+        "nama": "Yunani",
+        "benua": "Eropa",
+        "mata_uang": "Euro (EUR)",
+        "bahasa": "Yunani",
+        "luas": "131.957 km²",
+        "bendera": "https://flagcdn.com/w320/gr.png"
+    },
+    {
         "kode": "zm",
         "nama": "Zambia",
         "benua": "Afrika",
         "mata_uang": "Kwacha Zambia (ZMW)",
-        "bahasa": "Bahasa Inggris",
-        "luas": "752.612 km²",
+        "bahasa": "Inggris",
+        "luas": "752.618 km²",
         "bendera": "https://flagcdn.com/w320/zm.png"
     },
     {
