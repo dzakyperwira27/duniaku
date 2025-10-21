@@ -486,3 +486,101 @@ h1 {
 ::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(135deg, #764ba2, #667eea);
 }
+
+/* Footer Styles */
+.footer {
+    background: var(--header-bg);
+    color: var(--text-primary);
+    padding: 40px 20px 20px;
+    margin-top: 40px;
+    border-top: 1px solid var(--border-color);
+    box-shadow: 0 -5px 20px var(--shadow-color);
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.footer-section h3 {
+    color: var(--text-heading);
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-section h4 {
+    color: var(--text-heading);
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.footer-section p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    position: relative;
+    padding-left: 15px;
+}
+
+.footer-section ul li a::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: #667eea;
+    transition: transform 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #667eea;
+}
+
+.footer-section ul li a:hover::before {
+    transform: translateX(3px);
+}
+
+.footer-bottom {
+    border-top: 1px solid var(--border-color);
+    padding-top: 20px;
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .footer-section ul li a {
+        padding-left: 0;
+    }
+
+    .footer-section ul li a::before {
+        display: none;
+    }
+}

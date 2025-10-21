@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang - Daftar Negara Dunia</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* About Page Specific Styles */
+        .about-hero {
+            background: linear-gradient(135deg, var(--bg-gradient));
+            padding: 80px 20px;
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        .about-hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            background: none;
+            -webkit-text-fill-color: white;
+        }
+
+        .about-hero p {
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+
+        .about-content {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px 60px;
+        }
+
+        .about-section {
+            margin-bottom: 60px;
+        }
+
+        .section-title {
+            color: var(--text-heading);
+            margin-bottom: 25px;
+            font-size: 2rem;
+            text-align: center;
+            background: linear-gradient(135deg, #ffffff, #f1e2ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .section-subtitle {
+            color: var(--text-secondary);
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .content-card {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 10px 25px var(--shadow-color);
+            margin-bottom: 25px;
+        }
+
+        .card-title {
+            color: var(--text-heading);
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .content-card ul {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            padding-left: 20px;
+        }
+
+        .content-card li {
+            margin-bottom: 12px;
+            position: relative;
+        }
+
+        .content-card li strong {
+            color: var(--text-heading);
+        }
+
+        /* Tech Stack Grid */
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .tech-card {
+            background: var(--card-bg);
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+        }
+
+        .tech-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px var(--shadow-color);
+        }
+
+        .tech-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .tech-card h4 {
+            color: var(--text-heading);
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .tech-card p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .feature-card {
+            background: var(--card-bg);
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px var(--shadow-color);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .feature-card h4 {
+            color: var(--text-heading);
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        .feature-card p {
+            color: var(--text-secondary);
+            line-height: 1.6;
+            font-size: 0.95rem;
+            margin: 0;
+        }
+
+        /* Highlight Section */
+        .highlight-section {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            margin: 40px 0;
+            text-align: center;
+        }
+
+        .highlight-title {
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        .highlight-text {
+            opacity: 0.9;
+            margin: 0;
+            font-size: 1.1rem;
+        }
+
+        /* Tips Section */
+        .tips-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .tip-card {
+            background: var(--card-bg);
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+            transition: all 0.3s ease;
+        }
+
+        .tip-card:hover {
+            transform: translateX(5px);
+        }
+
+        .tip-card h4 {
+            color: var(--text-heading);
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .tip-card p {
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin: 0;
+            font-size: 0.95rem;
+        }
+
+        /* Navigation */
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 40px auto 0;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .back-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .about-hero {
+                padding: 60px 20px;
+            }
+
+            .about-hero h1 {
+                font-size: 2rem;
+            }
+
+            .about-hero p {
+                font-size: 1rem;
+            }
+
+            .section-title {
+                font-size: 1.7rem;
+            }
+
+            .tech-grid,
+            .features-grid,
+            .tips-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .highlight-section {
+                padding: 30px 20px;
+            }
+
+            .content-card {
+                padding: 25px 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .about-hero h1 {
+                font-size: 1.7rem;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Theme Toggle Switch -->
+    <div class="theme-toggle">
+        <label class="theme-switch">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider"></span>
+        </label>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <h1>📚 Tentang Project</h1>
+            <p class="subtitle">Proyek belajar untuk mengasah skill web development</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="about-content">
+        <!-- Hero Section -->
+        <section class="about-hero">
+            <h1>Halo! 👋 Saya Masih Belajar</h1>
+            <p>Project sederhana untuk mempraktikkan ilmu HTML, CSS, dan JavaScript dari nol</p>
+        </section>
+
+        <!-- Story Section -->
+        <section class="about-section">
+            <h2 class="section-title">Cerita di Balik Project</h2>
+            <p class="section-subtitle">Sebagai pemula di dunia pemrograman, saya membuat website ini untuk menerapkan
+                konsep-konsep dasar web development yang sedang dipelajari</p>
+
+            <div class="content-card">
+                <h3 class="card-title">🎯 Tujuan Pembelajaran</h3>
+                <ul>
+                    <li><strong>DOM Manipulation:</strong> Memahami cara mengontrol elemen HTML dengan JavaScript</li>
+                    <li><strong>Responsive Design:</strong> Belajar membuat layout yang adaptif dengan CSS Grid dan
+                        Flexbox</li>
+                    <li><strong>Theme System:</strong> Implementasi dark/light mode menggunakan CSS variables</li>
+                    <li><strong>Data Handling:</strong> Fetch dan manipulasi data dari file JSON</li>
+                    <li><strong>User Interaction:</strong> Membuat modal dan interaksi yang user-friendly</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Tech Stack Section -->
+        <section class="about-section">
+            <h2 class="section-title">Teknologi yang Digunakan</h2>
+            <p class="section-subtitle">Project ini dibangun dengan teknologi web development fundamental</p>
+
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <span class="tech-icon">📄</span>
+                    <h4>HTML5</h4>
+                    <p>Struktur website dan semantic elements</p>
+                </div>
+                <div class="tech-card">
+                    <span class="tech-icon">🎨</span>
+                    <h4>CSS3</h4>
+                    <p>Styling, animasi, dan responsive design</p>
+                </div>
+                <div class="tech-card">
+                    <span class="tech-icon">⚡</span>
+                    <h4>JavaScript</h4>
+                    <p>Interaktivitas dan manipulasi data</p>
+                </div>
+                <div class="tech-card">
+                    <span class="tech-icon">📱</span>
+                    <h4>Responsive Design</h4>
+                    <p>Mobile-first approach</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Highlight Section -->
+        <div class="highlight-section">
+            <h3 class="highlight-title">💡 Project Belajar Mandiri</h3>
+            <p class="highlight-text">Website ini dibuat sepenuhnya untuk tujuan edukasi dan pengembangan skill
+                programming. Semua kode ditulis dari nol sebagai bagian dari journey belajar web development.</p>
+        </div>
+
+        <!-- Features Section -->
+        <section class="about-section">
+            <h2 class="section-title">Fitur yang Diimplementasikan</h2>
+            <p class="section-subtitle">Berbagai fitur yang berhasil dipelajari dan diterapkan dalam project ini</p>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <span class="feature-icon">🌐</span>
+                    <h4>Dynamic Content</h4>
+                    <p>Menampilkan data negara dari JSON file menggunakan JavaScript fetch API</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">🎨</span>
+                    <h4>Theme Switching</h4>
+                    <p>Dark/light mode dengan CSS variables dan localStorage untuk persistensi</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">🔍</span>
+                    <h4>Real-time Search</h4>
+                    <p>Sistem pencarian dengan event handling dan filter data real-time</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">📱</span>
+                    <h4>Responsive Layout</h4>
+                    <p>Design yang optimal untuk desktop, tablet, dan mobile devices</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Learning Tips -->
+        <section class="about-section">
+            <h2 class="section-title">Tips untuk Sesama Pemula</h2>
+            <p class="section-subtitle">Beberapa pelajaran berharga dari perjalanan belajar ini</p>
+
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <h4>Start Small</h4>
+                    <p>Mulai dari project sederhana, fokus pada konsep dasar sebelum beralih ke framework kompleks</p>
+                </div>
+                <div class="tip-card">
+                    <h4>Consistent Practice</h4>
+                    <p>Luangkan waktu setiap hari untuk coding, konsistensi lebih penting daripada durasi</p>
+                </div>
+                <div class="tip-card">
+                    <h4>Learn by Building</h4>
+                    <p>Teori penting, tetapi praktik langsung dengan project nyata memberikan pemahaman lebih dalam</p>
+                </div>
+                <div class="tip-card">
+                    <h4>Embrace Errors</h4>
+                    <p>Error dan bug adalah bagian dari proses belajar, setiap masalah yang diselesaikan membuat skill
+                        meningkat</p>
+                </div>
+                <div class="tip-card">
+                    <h4>Build Projects</h4>
+                    <p>Buat project nyata untuk mengaplikasikan ilmu, portfolio project sangat berharga</p>
+                </div>
+                <div class="tip-card">
+                    <h4>Utilize Resources</h4>
+                    <p>Manfaatkan dokumentasi, forum, dan tutorial online sebagai panduan belajar</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Next Steps -->
+        <section class="about-section">
+            <h2 class="section-title">Rencana Pembelajaran Selanjutnya</h2>
+            <p class="section-subtitle">Langkah-langkah yang akan diambil untuk terus berkembang dalam web development
+            </p>
+
+            <div class="content-card">
+                <ul>
+                    <li><strong>JavaScript Framework:</strong> Memulai belajar React.js atau Vue.js</li>
+                    <li><strong>Backend Development:</strong> Mempelajari Node.js dan Express.js</li>
+                    <li><strong>Database Integration:</strong> Eksplorasi MongoDB dan MySQL</li>
+                    <li><strong>API Development:</strong> Membuat dan mengonsumsi RESTful APIs</li>
+                    <li><strong>Advanced Projects:</strong> Membangun aplikasi web yang lebih kompleks dan fungsional
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Back Button -->
+        <div style="text-align: center;">
+            <a href="index.html" class="back-button">
+                <span>←</span>
+                Kembali ke Beranda
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>🌍 Daftar Negara Dunia</h3>
+                <p>Project belajar web development - Made with 💖 by a beginner</p>
+            </div>
+            <div class="footer-section">
+                <h4>Learning Path</h4>
+                <p>HTML → CSS → JavaScript</p>
+                <p>Next: Framework & Backend</p>
+            </div>
+            <div class="footer-section">
+                <h4>Tautan</h4>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="about.html">Tentang Project</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Daftar Negara Dunia - Project Belajar | "The expert in anything was once a beginner"</p>
+        </div>
+    </footer>
+
+    <script>
+        // Theme functionality
+        function initializeTheme() {
+            const themeToggle = document.getElementById('theme-toggle');
+            const currentTheme = localStorage.getItem('theme') || 'light';
+
+            // Set initial theme
+            document.documentElement.setAttribute('data-theme', currentTheme);
+            themeToggle.checked = currentTheme === 'dark';
+
+            // Theme toggle event
+            themeToggle.addEventListener('change', function () {
+                const newTheme = this.checked ? 'dark' : 'light';
+                document.documentElement.setAttribute('data-theme', newTheme);
+                localStorage.setItem('theme', newTheme);
+            });
+        }
+
+        // Initialize theme when page loads
+        document.addEventListener('DOMContentLoaded', initializeTheme);
+    </script>
+</body>
+
+</html>
