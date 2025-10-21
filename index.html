@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Negara Dunia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>🌍 Daftar Negara Dunia</h1>
+            <p class="subtitle">Jelajahi keindahan negara-negara di dunia</p>
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Cari negara... (contoh: Indonesia, Japan)">
+                <div class="search-suggestions"></div>
+            </div>
+        </div>
+    </header>
+
+    <main id="country-container" class="country-grid"></main>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modal-flag" src="" alt="Bendera Negara">
+            <h2 id="modal-name"></h2>
+            <p><strong>Benua:</strong> <span id="modal-continent"></span></p>
+            <p><strong>Mata Uang:</strong> <span id="modal-currency"></span></p>
+            <p><strong>Bahasa:</strong> <span id="modal-language"></span></p>
+            <p><strong>Luas Wilayah:</strong> <span id="modal-area"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
