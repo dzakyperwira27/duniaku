@@ -92,6 +92,7 @@ async function loadCountries() {
         document.getElementById('modal-flag').src = country.bendera;
         document.getElementById('modal-name').textContent = country.nama;
         document.getElementById('modal-continent').textContent = `Benua: ${country.benua}`;
+        document.getElementById('modal-capital').textContent = `Ibukota: ${country.ibukota}`;
         document.getElementById('modal-currency').textContent = `Mata Uang: ${country.mata_uang}`;
         document.getElementById('modal-language').textContent = `Bahasa: ${country.bahasa}`;
         document.getElementById('modal-area').textContent = `Luas: ${country.luas} km²`;
